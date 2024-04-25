@@ -1,0 +1,30 @@
+/* Header.module.css */
+
+.header {
+    width: 100%;
+    height: 70px; 
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.header span {
+    font-size: 2rem; 
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px; 
+    font-size: 1.6rem; 
+    transition: color 0.3s ease; 
+}
+
+.header a:hover {
+    color: #ff6600;
+}

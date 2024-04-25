@@ -1,0 +1,46 @@
+
+.projetos-section {
+    background-color: #f9f9f9; 
+    color: #333; 
+    padding: 100px 0;
+    text-align: center;
+}
+
+.projetos-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.projetos-content h1 {
+    font-size: 3.5rem; 
+    margin-bottom: 40px; 
+}
+
+.projeto {
+    border: 2px solid #ccc; 
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.projeto h2 {
+    font-size: 2rem; 
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    font-size: 1.6rem; 
+    margin-bottom: 20px; 
+}
+
+.projeto a {
+    font-size: 1.6rem; 
+    color: #ff6600; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.projeto a:hover {
+    color: #ff6600;
+}

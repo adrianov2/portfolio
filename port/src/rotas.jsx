@@ -4,18 +4,18 @@ import Sobre from "./pages/Sobre"
 import Projetos from "./pages/Projetos"
 import Contatos from "./pages/Contatos"
 
-function AppRoutes() {
+function AppRotas() {
     return (
         <BrowserRouter> 
           <Routes>
-            <Route path="/" element={ <Home /> }></Route>
-            <Route path="/sobre" element={ <Sobre /> }></Route>
-            <Route path="/projetos" element={ <Projetos /> }></Route>
-            <Route path="/contatos" element={ <Contatos /> }></Route>
+            <Route path="/" element={<Home/>} />
+            <Route path="/sobre" element={<Sobre/>} />
+            <Route path="/projetos" element={<Projetos/>} />
+            <Route path="/contatos" element={<Contatos/>} />
           </Routes>
         </BrowserRouter>
     )
 }
 
-export default AppRoutes
+export default AppRotas
 

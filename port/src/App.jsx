@@ -1,10 +1,10 @@
 import './App.css'
-import AppRoutes from './routes'
+import AppRotas from './rotas'
 
 function App() {
  
   return (
-   <AppRoutes />
+   <AppRotas />
   )
 }
 

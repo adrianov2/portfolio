@@ -28,3 +28,20 @@
 .header a:hover {
     color: #ff6600;
 }
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    .header {
+        height: 60px; 
+        padding: 0 10px; 
+    }
+
+    .header span {
+        font-size: 1.6rem; 
+    }
+
+    .header a {
+        font-size: 1.4rem; 
+        padding: 0 10px; 
+    }
+}

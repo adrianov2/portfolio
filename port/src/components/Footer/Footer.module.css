@@ -12,3 +12,14 @@
     font-size: 0.8rem;
     opacity: 0.8; 
 }
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 20px; 
+    }
+
+    .copy {
+        font-size: 0.7rem; 
+    }
+}

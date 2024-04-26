@@ -1,8 +1,8 @@
-
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import { Link } from 'react-router-dom';
-
+import foguete from '../../components/img/foguete.svg'; 
+ 
 
 function Home() {
     return (
@@ -21,7 +21,7 @@ function Home() {
                     </Link>
                 </div>
                 <figure>
-                    <img src="./f1.svg" alt="Imagem de Home" />
+                    <img src={foguete} alt="Imagem de Home" /> 
                 </figure>
             </section>
             <Footer />
